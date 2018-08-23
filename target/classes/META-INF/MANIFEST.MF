@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: csv-parser
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: mattoxberry
+Built-By: q1422956
 Implementation-Vendor-Id: org.personal
-Build-Jdk: 1.8.0_101
+Build-Jdk: 1.8.0_111
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/csv-parser
 Created-By: Maven Integration for Eclipse
