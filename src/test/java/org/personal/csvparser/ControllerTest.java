@@ -18,7 +18,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.MOCK)
@@ -27,7 +26,7 @@ public class ControllerTest {
 
 	private final String uri = "/api";
 	private final String pingUri = uri + "/ping";
-	private ObjectMapper jsonMapper;
+	//private ObjectMapper jsonMapper;
 
 	@Autowired
 	private Controller controller;

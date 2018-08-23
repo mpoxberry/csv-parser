@@ -7,15 +7,13 @@ import org.json.JSONArray;
 
 public class Manager {
 
-	public JSONArray createJson(String csvString) {
-		csvString.split(",");
-		
+	public JSONArray createJson(List<String> csvList) {
+		//TODO: make json object
+		//csvList.get(0)
 		return new JSONArray();
 	}
 	
-	public List<String> createList(String csvString) {
-		List<String> l = Arrays.asList(csvString.split("\\r?\\n"));
-		
-		return l;
+	public List<String> createList(String csvString) {	
+		return Arrays.asList(csvString.split("\\r?\\n"));
 	}
 }
